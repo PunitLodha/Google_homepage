@@ -64,6 +64,10 @@ input[type=text]{
 	border:1px solid #dfe1e5;
 	border-radius: 25px;
 	box-shadow: none;
+	background-image: url('https://gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+	background-position: 515px;
+	background-repeat: no-repeat;
+	background-size: 24px;
 }
 input[type=text]:hover{
 	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
@@ -78,14 +82,14 @@ input[type=button]{
 	margin-right: 25px;
 	border-radius:5%;
 	background-color: #f0f0f0;;
-	border: 0;
+	border: 1px solid #f2f2f2;
 	padding:10px;
 	color:#5f5f54;
 }
 
 input[type=button]:hover{
 	color: #000;
-	border: 3px solid #dfe1e5;
+	border: 1px solid #bbb;
 }
 footer{
 	position:fixed;
@@ -100,7 +104,7 @@ footer{
 	height:60px;
 	top:549px;
 	background-color: #f2f2f2;
-	text-align: left;
+	margin-left: 5px;
 
 }
 .navleft{
