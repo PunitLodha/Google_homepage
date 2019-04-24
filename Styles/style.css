@@ -49,6 +49,7 @@ table {
 /*Reset End*/
 a{
 	text-decoration: none;
+	color:#5f5f54;
 }
 a:hover{
 	text-decoration: underline;
@@ -155,16 +156,17 @@ footer{
 	padding-left: 10px;
 	padding-top: 13px;
 	bottom: 50px;
+	border-top: 1px solid #CCC6C4;
+	border-bottom: 1px solid #CCC6C4;
+}
+footer nav{
+	display: inline-block;
 }
 
+.navmid{
+	width:67%;
 }
-.navleft{
-	float:left;
-}
-.navright{
-	margin-top: -30px;
-	float: right;
-}
+
 footer a{
 	margin:5px;
 }
